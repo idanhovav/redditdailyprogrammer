@@ -2,6 +2,7 @@ def disemvoweler(phrase):
 	consonants = ''
 	vowels = ''
 	vowel = 'aeiou'
+	phrase = phrase.lower()
 
 	for letter in phrase:
 		if letter in vowel:
